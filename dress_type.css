@@ -1,0 +1,24 @@
+.dress-type-box {
+    display: flex;
+    border: 1px solid;
+    width: fit-content;
+    padding: 10px;
+}
+
+.dress-type-image {
+    padding: 5px;
+    border: 0px solid;
+    background-color: rgb(232, 227, 227);
+}
+
+.dress-type-image img {
+    width: 35px;
+}
+
+.dress-type-info {
+    padding: 5px;
+}
+
+.dress-type-icon {
+    font-size: smaller;
+}
