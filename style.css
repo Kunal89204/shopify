@@ -262,7 +262,8 @@ nav ul li:hover {
 
 .grid-item{
      border: 0px solid;
-     box-shadow: 0px 0px 1px 1px gray;
+     box-shadow: 0px 0px 10px 1px gray;
+     border-radius: 8px;
 }
 
 .category{
@@ -291,4 +292,56 @@ b{
 
 .list-name{
     padding-left: 10px;
+}
+
+
+/* Arrival item css */
+
+.new-arrival-title{
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.arrival-container{
+    padding: 8px;
+}
+
+.arrival-item{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border: 0px solid;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 1px gray;
+    padding: 5px;
+
+}
+
+.arrival-img-box img{
+    width: 40px;
+}
+
+.arrival-info{
+    height: min-content;
+    padding-left: 10px;
+}
+
+.arrival-info *{
+    height: 24px;
+}
+
+.arrival-item-name{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.arrival-category{
+    color: rgb(125, 124, 124);
+    font-size: small;
+    font-weight: bold;
+}
+
+.arrival-item-price{
+    font-size: small;
+    color: red;
 }
