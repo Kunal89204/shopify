@@ -21,6 +21,7 @@ body {
 
 .primary-container {
     padding: 6px 40px;
+    overflow: visible;
 }
 
 .top-header {
@@ -73,6 +74,8 @@ body {
     border-bottom: 1px solid rgb(204, 203, 203);
     position: sticky;
     top: 0px;
+    z-index: 1;
+    background-color: white;
 }
 
 .search-box {
@@ -149,14 +152,15 @@ nav ul li:hover {
 
 .dress-type-box {
     display: flex;
-    border: 0px solid;
+    border: 1px solid gray;
     width: 24%;
     height: 80px;
     overflow: hidden;
     padding: 0px 40px 0px 10px;
     align-items: center;
     border-radius: 5px;
-    box-shadow: 0px 0px 4px 1px gray;
+    /* box-shadow: 0px 0px 1px 1px gray; */
+
 }
 
 /* Media Query for dress type box */
@@ -261,8 +265,8 @@ nav ul li:hover {
 }
 
 .grid-item{
-     border: 0px solid;
-     box-shadow: 0px 0px 10px 1px gray;
+     border: 1px solid gray;
+     /* box-shadow: 0px 0px 10px 1px gray; */
      border-radius: 8px;
 }
 
@@ -310,9 +314,9 @@ b{
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    border: 0px solid;
+    border: 1px solid gray;
     border-radius: 6px;
-    box-shadow: 0px 0px 5px 1px gray;
+    /* box-shadow: 0px 0px 5px 1px gray; */
     padding: 5px;
 
 }
