@@ -54,15 +54,22 @@ body {
     border-radius: 5px;
     background-color: aliceblue;
     overflow: hidden;
-    height: 0px;
+    display: none;
+    position: absolute;
+    z-index: 99;
+    
+}
+
+.dropdown-content ul{
+    text-align: center;
 }
 
 .currency-name:hover+.dropdown-content {
-    height: fit-content;
+    display: block;
 }
 
 .lang-name:hover+.dropdown-content {
-    height: fit-content;
+    display: block;
 }
 
 /* Second header css */
